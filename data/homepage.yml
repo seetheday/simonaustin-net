@@ -11,11 +11,11 @@ showcase:
 
   button:
     icon: "icon-email"
-    URL: "https://www.simonaustin.net/"
+    URL: "https://simonaustin-net.web.app/"
 
   socialLinks:
     - icon: "linkedin"
-      URL: "https://www.linkedin.com/in/simongaustin/"
+      URL: "https://www.linkedin.com/in/ssimongaustin/"
 
     - icon: "square-github"
       URL: "https://github.com/seetheday"
