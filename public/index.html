@@ -1,724 +1,89 @@
-
 <!DOCTYPE html>
-<html 
-	lang="en"
->
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Welcome to Firebase Hosting</title>
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <!-- update the version number as needed -->
+    <script defer src="/__/firebase/11.1.0/firebase-app-compat.js"></script>
+    <!-- include only the Firebase features as you need -->
+    <script defer src="/__/firebase/11.1.0/firebase-auth-compat.js"></script>
+    <script defer src="/__/firebase/11.1.0/firebase-database-compat.js"></script>
+    <script defer src="/__/firebase/11.1.0/firebase-firestore-compat.js"></script>
+    <script defer src="/__/firebase/11.1.0/firebase-functions-compat.js"></script>
+    <script defer src="/__/firebase/11.1.0/firebase-messaging-compat.js"></script>
+    <script defer src="/__/firebase/11.1.0/firebase-storage-compat.js"></script>
+    <script defer src="/__/firebase/11.1.0/firebase-analytics-compat.js"></script>
+    <script defer src="/__/firebase/11.1.0/firebase-remote-config-compat.js"></script>
+    <script defer src="/__/firebase/11.1.0/firebase-performance-compat.js"></script>
+    <!-- 
+      initialize the SDK after all desired features are loaded, set useEmulator to false
+      to avoid connecting the SDK to running emulators.
+    -->
+    <script defer src="/__/firebase/init.js?useEmulator=true"></script>
 
-    <meta charset="UTF-8"/>
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<meta http-equiv="X-UA-Compatible" content="ie=edge"/>
-<meta name="theme-color" content="#478079"/>
-
-<title>Simon Austin | Product Director for Sun Life</title>
-<meta name="description" content='This site is a portfolio of Simon Austin, Product Director for Sun Life.'>
-<meta name="generator-mode" content='development'>
-<style data-generator="critical-css">
-</style>
-<link
-  rel="preload"
-  href="/css/bundle.css"
-  as="style"
-  onload="this.onload=null;this.rel='stylesheet'"
-  
-/>
-<noscript>
-  <link 
-    rel="stylesheet"
-    href="/css/bundle.css"
-    
-  />
-</noscript>
-<link rel="stylesheet" href="http://localhost:1313/scss/adritian.css" integrity="" crossorigin="anonymous"/>
-
-
-
-<script defer src="http://localhost:1313/js/color-modes.js"></script>
-
-<script src='http://localhost:1313/js/library/lozad.min.js'></script>
-
-<meta property="og:url" content="http://localhost:1313/">
-  <meta property="og:site_name" content="Adritian - a high performance hugo theme by Adrián Moreno">
-  <meta property="og:title" content="Adritian - a high performance hugo theme by Adrián Moreno">
-  <meta property="og:description" content="This hugo theme (Adritian) is based on Bootstrap and has features that make it suitable for a personal site, a portfolio or other kind of Single Page Applications.">
-  <meta property="og:locale" content="en">
-  <meta property="og:type" content="website">
-    <meta property="og:image" content="http://localhost:1313/img/og-img.png">
-
-
-    
-
-
-</head>
-
-<body class="home">
-
-	
-
-<header class="header fixed-top rad-animation-group" id="header">
-  <div class="container rad-fade-in">
-    <nav class="navbar bd-navbar navbar-expand-lg navbar-light p-0">
-      <div class="container-fluid">
-        <a class="navbar-brand mx-auto" href="/">
-          <span>Simon</span>
-          <span>Austin</span>
-        </a>
-        <button
-          class="navbar-toggler collapsed"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent, #header"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-lg-auto">
-            <li class="nav-item">
-              <a class="nav-link active" href="/"
-                >HOME</a
-              >
-            </li>
-            
-            <li class="nav-item">
-              <a data-scroll class="nav-link" href="/#about"
-                >ABOUT</a
-              >
-            </li>
-            
-            <li class="nav-item">
-              <a data-scroll class="nav-link" href="/#experience"
-                >EXPERIENCE</a
-              >
-            </li>
-            
-            <li class="nav-item">
-              <a data-scroll class="nav-link" href="/#contact"
-                >CONTACT</a
-              >
-            </li>
-            
-          </ul>
-        </div>
-      </div>
-    </nav>
-  </div>
-</header>
-
-
-
-
-	
-	
-<section id="showcase" class="rad-showcase rad-showcase--index rad-animation-group rad-fade-down">
-  <div class="container">
-    <div class="row flex-column-reverse flex-md-row rad-fade-down rad-waiting rad-animate">
-      <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-        <h1 class="display-1">
-          Hello, I&#39;m Simon.
-          <br />
-          <span>Digital Product Director, Public Web</span>
-        </h1>
-        <p class="lead">
-          I work at <a target='_blank' href='https://www.sunlife.ca/en/'>Sun Life Canada</a>, a financial services company that provides insurance, wealth and asset management solutions for individuals and businesses. I'm responsible for the public facing website.<br> My background is diverse, with experience in product management, analytics, marketing and software development. I'm passionate about creating digital experiences that both drive business results and deliver value to customers.
-        </p>
-        <a
-          href="https://www.simonaustin.net/"
-          class="btn btn-primary"
-        >
-          <i class="icon-email"></i>
-          Contact
-        </a>
-      </div>
-<div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 profile-image">
-
-  
-  
-
-  
-  
-              
-   
-
-  
-  
-
-
-  <picture>
-    <source srcset="/images/showcase/showcase_hu7387713246908558485.webp 1x, /images/showcase/showcase@2x_hu4121944409458675441.webp 2x" type="image/webp" />
-    <source srcset="/images/showcase/showcase.png 1x, /images/showcase/showcase@2x.png 2x" type="image/webp">
-    <img
-      width="790"
-      height="768"
-      class="lozad img-responsive"
-      src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
-      srcset="/images/showcase/showcase.png 1x, /images/showcase/showcase@2x.png 2x"
-      data-src="/images/showcase/showcase.png"
-      data-srcset="/images/showcase/showcase.png 1x, /images/showcase/showcase@2x.png 2x"
-      alt='A picture of Cool Name'
-    />
-  </picture>
-  
-  
-
-</div>
+    <style media="screen">
+      body { background: #ECEFF1; color: rgba(0,0,0,0.87); font-family: Roboto, Helvetica, Arial, sans-serif; margin: 0; padding: 0; }
+      #message { background: white; max-width: 360px; margin: 100px auto 16px; padding: 32px 24px; border-radius: 3px; }
+      #message h2 { color: #ffa100; font-weight: bold; font-size: 16px; margin: 0 0 8px; }
+      #message h1 { font-size: 22px; font-weight: 300; color: rgba(0,0,0,0.6); margin: 0 0 16px;}
+      #message p { line-height: 140%; margin: 16px 0 24px; font-size: 14px; }
+      #message a { display: block; text-align: center; background: #039be5; text-transform: uppercase; text-decoration: none; color: white; padding: 16px; border-radius: 4px; }
+      #message, #message a { box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); }
+      #load { color: rgba(0,0,0,0.4); text-align: center; font-size: 13px; }
+      @media (max-width: 600px) {
+        body, #message { margin-top: 0; background: white; box-shadow: none; }
+        body { border-top: 16px solid #ffa100; }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="message">
+      <h2>Welcome</h2>
+      <h1>Firebase Hosting Setup Complete</h1>
+      <p>You're seeing this because you've successfully setup Firebase Hosting. Now it's time to go build something extraordinary!</p>
+      <a target="_blank" href="https://firebase.google.com/docs/hosting/">Open Hosting Documentation</a>
     </div>
-    <div class="row platform-links">
-      <div class="col-12">
-        
-        <a href="https://www.linkedin.com/in/simongaustin/" target="_blank" rel="noopener noreferrer" aria-label="linkedin"
-          ><i class="icon-linkedin"></i
-        ></a>
-        
-        <a href="https://github.com/seetheday" target="_blank" rel="noopener noreferrer" aria-label="square-github"
-          ><i class="icon-square-github"></i
-        ></a>
-        
-      </div>
-    </div>
-  </div>
-  
-</section>
-
-
-	
-	
-<section id="about" class="section rad-animation-group pb-0" >
-  <div class="container rad-fade-down">
-    <div class="row d-flex flex-column-reverse flex-md-row">
-      <div class="about__profile-picture col-12 col-md-6">
-        
-              
-        
-        
-        
-              
-         
-
-        
-        
-        <picture>
-          <source srcset="/images/about/user-picture_hu16615096119556517587.webp 1x, /images/about/user-picture_hu8839404730129813285.webp 2x" type="image/webp" />
-          <source srcset="/images/about/user-picture.png 1x, /images/about/user-picture@2x.png 2x" type="image/webp">
-          <img
-            width="561"
-            height="535"
-            class="lozad img-responsive image-left-overflow"
-            src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
-            srcset="/images/about/user-picture.png 1x, /images/about/user-picture@2x.png 2x"
-            data-src="/images/about/user-picture.png"
-            data-srcset="/images/about/user-picture.png 1x, /images/about/user-picture@2x.png 2x"
-            alt=''
-          />
-        </picture>
-        
-        
-      </div>
-      <div class="col-12 col-md-6 my-auto my-auto">
-        <h2>Who am I?</h2>
-        <p class="lead"> I’m curious, energetic, and driven by a passion for learning and problem-solving. My career has often placed me at the intersection of marketing, product, and technology, where I’m frequently the most technical person in the room. Whether it’s conducting code reviews, debugging SQL queries, proposing system architecture changes, or diving deep into analytics, I thrive on tackling challenges head-on. </p> <p class="lead"> At the same time, I’m equally at home conducting client interviews, reviewing UX designs, defining product strategies, or crafting performance marketing campaigns. This unique blend of skills allows me to bridge the gap between technical execution and strategic planning seamlessly. </p> <p class="lead"> With a degree in Physics and Computer Science, I’ve built a strong foundation for figuring out almost anything, a skillset honed early in my career and applied in fast-paced environments ever since. I’m passionate about roles and projects that let me learn, grow, and make an impact by combining technical expertise with creative problem-solving. </p>
-        <a
-          href="https://www.linkedin.com/in/simonguaustin/"
-          target="_blank"
-          class="btn btn-primary"
-        >
-          <i class="icon-user"></i>
-          About Me
-        </a>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-	
-	
-<section id="education" class="section section--border-bottom rad-animation-group">
-    <div class="container">
-        <div class="row rad-fade-down">
-            <div class="col-12">
-                <h2>Education</h2>
-                <div class="row pt-2 pt-md-4">
-                    
-                    <div class="col-12 col-sm-6 mb-4 mb-sm-0">
-                        <div class="education">
-                            <div class="education__date"></div>
-                            <div class="education__title">University of Waterloo</div>
-                            <div class="education__degree">
-                                Bachelor of Science (BSc) - Physics, Computer Science Minor, Co-op
-                            </div>
-                        </div>
-                    </div>
-                    
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-	
-	
-<section id="experience" class="section-experience section section--border-bottom rad-animation-group flex-grow-1">
-    <div class="container">
-        <div class="row flex-column-reverse flex-md-row rad-fade-down">
-            <div class="col-12 cold-md-12 col-sm-6 mt-5 mt-sm-0">
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                <div class="experience">
-                    <a href="http://localhost:1313/experience/sunlife-product/">
-                        
-                        <div class="experience__date">2019-now</div>
-                        <div class="experience__title">Product Director, Public Web</div>
-                        <div class="experience__company">Sun Life. <span class="experience__location">
-                            Waterloo, Ontario, Canada</span></div>
-                    </a>
-                </div>
-                
-                <div class="experience">
-                    <a href="http://localhost:1313/experience/sunlife-optimization/">
-                        
-                        <div class="experience__date">2017-2019</div>
-                        <div class="experience__title">Director, Digital Optimization</div>
-                        <div class="experience__company">Sun Life. <span class="experience__location">
-                            Waterloo, Ontario, Canada</span></div>
-                    </a>
-                </div>
-                
-                <div class="experience">
-                    <a href="http://localhost:1313/experience/sunlife-decision-engine/">
-                        
-                        <div class="experience__date">2015-now</div>
-                        <div class="experience__title">Director, Real Time Decision Engine</div>
-                        <div class="experience__company">Sun Life. <span class="experience__location">
-                            Waterloo, Ontario, Canada</span></div>
-                    </a>
-                </div>
-                
-                <div class="experience">
-                    <a href="http://localhost:1313/experience/blackberry-marketing-automation-copy/">
-                        
-                        <div class="experience__date">2014-2015</div>
-                        <div class="experience__title">Senior Manager, Marketing Automation &amp; Analytics</div>
-                        <div class="experience__company">BlackBerry. <span class="experience__location">
-                            Waterloo, Ontario, Canada</span></div>
-                    </a>
-                </div>
-                
-                <div class="experience">
-                    <a href="http://localhost:1313/experience/blackberry-analytics/">
-                        
-                        <div class="experience__date">2007-2014</div>
-                        <div class="experience__title">Analytics Analyst → Analytics Manager</div>
-                        <div class="experience__company">BlackBerry. <span class="experience__location">
-                            Waterloo, Ontario, Canada</span></div>
-                    </a>
-                </div>
-                
-                <div class="experience">
-                    <a href="http://localhost:1313/experience/deluxe/">
-                        
-                        <div class="experience__date">2005-2007</div>
-                        <div class="experience__title">Database Analyst</div>
-                        <div class="experience__company">Deluxe. <span class="experience__location">
-                            Midland, Ontario, Canad -&gt; Groton, MA, USA</span></div>
-                    </a>
-                </div>
-                
-                
-                <div class="all-experience-container">
-                    
-                    <em>And 1 more</em><br />
-                    <a href="http://localhost:1313/experience " title=" See additional 1 experience items"
-                        class="btn btn-primary btn-all-experience">
-                        <i class="icon-cloud-arrow-down"></i>
-                        View all
-                    </a>
-                </div>
-                
-            </div>
-            <div class="col-12 col-md-6">
-                <div class="container-experience">
-  <div class="row">
-    <h2>Experience</h2>
-    <p class="lead">This is where you can highlight a bit over your experience. Years of total experience, specialization, etc.</p>
-  </div>
-  <div class="row">
-    
-    <div class="col-12 col-lg-4">
-      <a
-        href='https://www.linkedin.com/in/simongaustin/'
-        class="btn btn-primary btn-block w-100"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-      
-      <i class="icon-linkedin"></i>
-            
-        LinkedIn
-        <i class="icon-arrow-right"></i
-      ></a>
-    </div>
-    
-    
-    <div class="col-12 col-lg-4">
-      <a
-        href='http://localhost:1313/img/general/user-smile-fill.svg'
-        class="btn btn-frameless  w-100"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-      
-      <i class="icon-file-pdf"></i>
-      
-        Download resume
-      </a>
-    </div>
-    
-    
-    <div class="col-12 col-lg-4">
-      <a
-        href='http://localhost:1313/experience'
-        class="btn btn-frameless  w-100"
-        rel="noopener noreferrer"
-      >
-        
-        <i class="icon-cloud-arrow-down"></i>
-        
-        View all
-      </a>
-    </div>
-    
-  </div>
-</div>
-
-            </div>
-        </div>
-    </div>
-</section>
-
-	
-	
-
-
-
-
-
-	
-	
-<section id="testimonial" class="section rad-animation-group section--border-bottom">
-    <div class="container">
-        <h2 class="rad-fade-down">Testimonials</h2>
-        <div class="row row--padded mb-0 rad-fade-down">
-            
-            
-            
-            
-             
-
-            <div class="col-12 col-md-4 mb-5 mb-md-0 testimonial container">
-                <i class="icon-quote-left"></i>
-                <p>
-                    <p>During my time at BlackBerry, Simon was pivotal to the development of Blackerry&rsquo;s marketing analytics practice; his deep digital measurement expertise in combination with his exceptional lateral-thinking skills were invaluable in developing a clearer understanding of mROI and, in turn, the attitudes, actions, and opinions of BlackBerry customers and prospects. I recommend Simon without reservation.</p>
-
-                </p>
-                <div class="testimonial__author row gx-0">
-                         
-                         
-                         
-                    
-                         <div class="testimonial__author-info col-10">
-                        <h3>Mark Wright</h3>
-                        <span>General Manager, Firmex</span>
-                    </div>
-                </div>
-            </div>
-             
-
-            <div class="col-12 col-md-4 mb-5 mb-md-0 testimonial container">
-                <i class="icon-quote-left"></i>
-                <p>
-                    <p>Simon is a smart analytics strategiest AND practitioner. People like Simon have helped shaped the Analytics industry to what it is today, driven by a passion for &lsquo;data-driven insights&rsquo; and business optimization. Simon is a great partner to work with. He spends the time to listen, and understand different point of view, and always makes decisions based on what is best for the business, and ultimately, the customer. I would work with Simon anytime.</p>
-
-                </p>
-                <div class="testimonial__author row gx-0">
-                         
-                         
-                         
-                    
-                         <div class="testimonial__author-info col-10">
-                        <h3>Marco Bailetti</h3>
-                        <span>Partner, Deloitte</span>
-                    </div>
-                </div>
-            </div>
-             
-
-            <div class="col-12 col-md-4 mb-5 mb-md-0 testimonial container">
-                <i class="icon-quote-left"></i>
-                <p>
-                    <p>The state of Canadian digital analytics is better off because of Simon.</p>
-<p>Simon, at BlackBerry, is responsible for a non-trivial percentage of overall analytical spending in Canada. And not just for a year. But over a sustained, persistent, period of time.</p>
-<p>His influence extends from Kitchener-Waterloo all the way to Spadina and Adelaide streets in Toronto, and will often spillover into New York and Chicago.</p>
-<p>Simon works with a very heterogeneous audience within BlackBerry, ranging from executives who want the bullet points, directors looking to build solid business cases, and some of the smartest managers looking for exploitable market cleavages. He has effectively managed an orchestra of solid lines, dotted lines, sustainably, for several years. BlackBerry is better off because of his steady hand within digital analytics.</p>
-<p>He did this effectively, and to the benefit of the industry. A lot of people are a lot better at what they do because Simon. In many instances, he led and pushed for differentiating innovation. He&rsquo;s an effective collaborator. He took good risks in analytics. They paid off. This has an impact beyond well beyond BlackBerry.</p>
-<p>Simon has a background in physics and computer science. He understands and uses the scientific method. He understands technology. He really gets the business. This, too, is particularly rare and sets him apart.</p>
-<p>The basis for this recommendation, if you&rsquo;re ever able to work with Simon or hire him in the future, is based on what I know he&rsquo;s done first hand for the quality of analytics in Canada, and what he&rsquo;s done for BlackBerry over the years.</p>
-
-                </p>
-                <div class="testimonial__author row gx-0">
-                         
-                         
-                         
-                    
-                         <div class="testimonial__author-info col-10">
-                        <h3>Chris Berry</h3>
-                        <span>COO, Source Inc.</span>
-                    </div>
-                </div>
-            </div>
-            
-        </div>
-    </div>
-</section>
-
-
-
-	
-	
-<section id="contact" class="section section--contact pt-0">
-    <div class="container">
-        <div class="contact">
-            <h2>Contact</h2>
-            <div class="row pt-2">
-                <div class="col-12 col-lg-7">
-                    <form action="#" method="">
-                        <div class="row">
-                            <div class="col-12 col-sm-6">
-                                <input type="text" name="full_name" id="full_name"
-                                       placeholder='Full Name'/>
-                            </div>
-                            <div class="col-12 col-sm-6">
-                                <input type="text" name="email" id="email"
-                                       placeholder='Email Address'/>
-                            </div>
-                        </div>
-                        <div class="row pt-4">
-                            <div class="col-12">
-                                <textarea name="message" id="message"
-                                          cols="30" rows="3" placeholder='Type Your Message Here'></textarea>
-                            </div>
-                        </div>
-                        <div class="row pt-4">
-                            <div class="col-12">
-                                <button type="submit" class="btn btn-primary">
-                                    <i class="icon-email"></i>
-                                    Send Message
-                                </button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-                <div class="col-12 col-lg-5 contact__info">
-                    
-                    
-                    <h3>Address</h3>
-                    <span>Waterloo, Ontario, Canada</span>
-                    
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-	
-	
-<section id="newsletter" class="section section--cta">
-<div class="container">
-  <div class="row">
-    <div class="col-12 text-center">
-      <h2>Newsletter</h2>
-      <div class="rad-subscription-group">
-        <form id="rad-subscription" action="">
-          <input
-            id="rad-subscription-email"
-            type="email"
-            class="form-control"
-            aria-describedby="emailHelp"
-            placeholder='Your email'
-            aria-label='Your email'
-          />
-          <button type="submit" id="rad-subscription-submit" class="btn btn-light btn-rounded">
-            Subscribe
-          </button>
-        </form>
-        <div id="rad-subscription-success" class="d-none">
-          <p class="lead">Thank you for subscribing to my newsletter!</p>
-        </div>
-        <div id="rad-subscription-fail" class="d-none">
-          <p>An error occurred. Please try again.</p>
-        </div>
-        <script src='http://localhost:1313/js/subscription.js'></script>
-      </div>
-      <small id="emailHelp" class="form-text text-muted"
-        >We&#39;ll never share your email with anyone else.</small
-      >
-    </div>
-  </div>
-</div>
-</section>
-
-
-	
-
-	<footer class="footer w-100">
-  <div class="container">
-    <div class="container-fluid">
-      <div class="row w-100 align-items-center">
-        <div class="footer_left col-12 col-lg-4 mb-3 mb-lg-0 text-center text-lg-start">
-          <div class="footer__copy">
-            <span>© Simon Austin</span>
-          </div>
-        </div>
-        <div class="footer_links col-12 col-lg-6 mb-3 mb-lg-0 text-center text-lg-start">
-          <ul class="navbar-nav w-100 align-items-center justify-content-center justify-content-lg-start d-flex flex-wrap gap-2">
-            <li class="nav-item">
-              <a class="nav-link px-2" href="/"
-                >🏠 HOME</a
-              >
-            </li>
-            
-            <li class="nav-item">
-              <a class="nav-link px-2" href="/#about"
-                >ABOUT</a
-              >
-            </li>
-            
-            <li class="nav-item">
-              <a class="nav-link px-2" href="/#portfolio"
-                >PORTFOLIO</a
-              >
-            </li>
-            
-            <li class="nav-item">
-              <a class="nav-link px-2" href="/#contact"
-                >CONTACT</a
-              >
-            </li>
-            
-          </ul>
-        </div>
-        <div class="footer_right col-12 col-lg-2 mb-3 mb-lg-0 text-center text-lg-end">
-          <div class="d-flex flex-column flex-lg-row justify-content-center align-items-center gap-2">
-            
-            
-            
-            <div id="footer-color-selector" class="nav-item dropdown dropup">
-              <button
-                class="btn btn-link nav-link py-2 px-0 px-lg-2 dropdown-toggle d-flex align-items-center show"
-                id="bd-theme"
-                type="button"
-                aria-expanded="true"
-                data-bs-toggle="dropdown"
-                data-bs-display="static"
-                aria-label="Toggle theme (light)"
-              >
-                <span class="theme-icon auto d-none" aria-hidden="true"
-                  ></span
-                >
-                <span class="current-theme">✨ Auto</span>
-                <span class="d-lg-none ms-2 visually-hidden" id="bd-theme-text"
-                  >Toggle theme</span
-                >
-              </button>
-              <ul
-                class="dropdown-menu dropdown-menu-end dropup"
-                aria-labelledby="bd-theme-text"
-                data-bs-popper="static"
-              >
-                <li>
-                  <button
-                    type="button"
-                    class="dropdown-item d-flex align-items-center active"
-                    data-bs-theme-value="light"
-                    aria-pressed="true"
-                  >
-                    ☀️ Light
-                  </button>
-                </li>
-                <li>
-                  <button
-                    type="button"
-                    class="dropdown-item d-flex align-items-center"
-                    data-bs-theme-value="dark"
-                    aria-pressed="false"
-                  >
-                    🌑 Dark
-                    <span class="theme-icon dark d-none" aria-hidden="true"
-                      ></span
-                    >
-                  </button>
-                </li>
-                <li>
-                  <button
-                    type="button"
-                    class="dropdown-item d-flex align-items-center"
-                    data-bs-theme-value="auto"
-                    aria-pressed="false"
-                  >
-                    ✨ Auto
-                    <span class="theme-icon light d-none" aria-hidden="true"
-                      ></span
-                    >
-                  </button>
-                </li>
-              </ul>
-            </div>
-            
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</footer>
+    <p id="load">Firebase SDK Loading&hellip;</p>
 
     <script>
-  window.addEventListener("load", function() {
-    try{
-      var observer = window.lozad(".lozad", {
-        rootMargin: window.innerHeight / 2 + "px 0px",
-        threshold: 0.01
-      }); 
-      observer.observe();
-    } catch(e) {
-      console.error(e);
-    }
-  });
-</script>
-<script defer src='http://localhost:1313/js/rad-animations.js'></script>
-<script defer src='http://localhost:1313/js/library/smooth-scroll.polyfills.min.js'></script>
-<script defer src='http://localhost:1313/js/sticky-header.js'></script>
-<script defer src='http://localhost:1313/js/smooth-scroll-init.js'></script>
-<script defer src='http://localhost:1313/js/library/bootstrap.bundle.min.js'></script>
+      document.addEventListener('DOMContentLoaded', function() {
+        const loadEl = document.querySelector('#load');
+        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+        // // The Firebase SDK is initialized and available here!
+        //
+        // firebase.auth().onAuthStateChanged(user => { });
+        // firebase.database().ref('/path/to/ref').on('value', snapshot => { });
+        // firebase.firestore().doc('/foo/bar').get().then(() => { });
+        // firebase.functions().httpsCallable('yourFunction')().then(() => { });
+        // firebase.messaging().requestPermission().then(() => { });
+        // firebase.storage().ref('/path/to/ref').getDownloadURL().then(() => { });
+        // firebase.analytics(); // call to activate
+        // firebase.analytics().logEvent('tutorial_completed');
+        // firebase.performance(); // call to activate
+        //
+        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
 
-
-
-<script>
-  window.si = window.si || function () { (window.siq = window.siq || []).push(arguments); };
-</script>
-</body>
-
+        try {
+          let app = firebase.app();
+          let features = [
+            'auth', 
+            'database', 
+            'firestore',
+            'functions',
+            'messaging', 
+            'storage', 
+            'analytics', 
+            'remoteConfig',
+            'performance',
+          ].filter(feature => typeof app[feature] === 'function');
+          loadEl.textContent = `Firebase SDK loaded with ${features.join(', ')}`;
+        } catch (e) {
+          console.error(e);
+          loadEl.textContent = 'Error loading the Firebase SDK, check the console.';
+        }
+      });
+    </script>
+  </body>
 </html>

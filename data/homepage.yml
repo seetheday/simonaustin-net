@@ -69,7 +69,8 @@ testimonial:
 contact:
   enable: true
   form:
-    action: "#"
+    action: "https://formspree.io/f/xvggdpzo"
+    method: "POST"
   button:
     icon: "icon-email"
 
