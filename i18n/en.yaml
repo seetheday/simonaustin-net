@@ -1,0 +1,180 @@
+## Meta tags
+- id: "meta_title"
+  translation: "Simon Austin | Product Director for Sun Life"
+- id: "meta_description"
+  translation: "Portfolio of Simon Austin, Product Director for Sun Life."
+- id: "meta_keywords"
+  translation: "simon austin, resume, simon, austin, personal site, portfolio"
+- id: "meta_author"
+  translation: "Simon Austin"
+- id: "meta_image"
+  translation: "/img/general/og-image.jpg"
+
+## Header
+- id: "logo_text1"
+  translation: "Simon"
+
+- id: "logo_text2"
+  translation: "Austin"
+
+## Footer
+- id: "footer_notice"
+  translation: "© Simon Austin"
+
+- id: "language"
+  translation: "Language"
+
+- id: "toggle_theme"
+  translation: "Toggle theme"
+
+- id: "theme_light"
+  translation: "☀️ Light"
+- id: "theme_dark"
+  translation: "🌑 Dark"
+- id: "theme_auto"
+  translation: "✨ Auto"
+
+## Homepage head title
+- id: "head_title"
+  translation: "Simon Austin | Product Director for Sun Life"
+
+- id: "head_description"
+  translation: "This site is a portfolio of Simon Austin, Product Director for Sun Life."
+
+## Homepage showcase
+- id: "showcase_title"
+  translation: "Hello, I'm Simon"
+
+- id: "showcase_subtitle"
+  translation: "Digital Product Director, Public Web"
+
+- id: "showcase_description"
+  translation: "I work at <a target='_blank' href='https://www.sunlife.ca/en/'>Sun Life Canada</a>, a financial services company that provides insurance, wealth and asset management solutions for individuals and businesses. I'm responsible for the public facing website.<br> My background is diverse, with experience in product management, analytics, marketing and software development. I'm passionate about creating digital experiences that both drive business results and deliver value to customers."
+
+- id: "showcase_button"
+  translation: "Contact"
+
+  ## not visible but used for accessibility
+- id: "showcase_image_alt"
+  translation: "A picture of Cool Name"
+
+## Homepage about
+- id: "about_title"
+  translation: "Who am I?"
+
+- id: "about_content"
+  translation:  <p class="lead">
+      I’m curious, energetic, and driven by a passion for learning and problem-solving. My career has often placed me at the intersection of marketing, product, and technology, where I’m frequently the most technical person in the room. Whether it’s conducting code reviews, debugging SQL queries, proposing system architecture changes, or diving deep into analytics, I thrive on tackling challenges head-on.
+      </p>
+      <p class="lead">
+      At the same time, I’m equally at home conducting client interviews, reviewing UX designs, defining product strategies, or crafting performance marketing campaigns. This unique blend of skills allows me to bridge the gap between technical execution and strategic planning seamlessly.
+      </p>
+      <p class="lead">
+      With a degree in Physics and Computer Science, I’ve built a strong foundation for figuring out almost anything, a skillset honed early in my career and applied in fast-paced environments ever since. I’m passionate about roles and projects that let me learn, grow, and make an impact by combining technical expertise with creative problem-solving.
+    </p>
+
+- id: "about_button"
+  translation: "About Me"
+
+## Homepage education
+- id: "education_title"
+  translation: "Education"
+
+## Homepage experience
+- id: "experience_title"
+  translation: "Experience"
+
+- id: "experience_description"
+  translation: "This is where you can highlight a bit over your experience. Years of total experience, specialization, etc."
+
+- id: "experience_button"
+  translation: "LinkedIn" 
+
+- id: "experience_button_url"
+  translation: "https://www.linkedin.com/in/simongaustin/"
+
+- id: "experience_button2"
+  translation: "Download resume"
+
+- id: "experience_button2_url"
+  translation: "/img/general/user-smile-fill.svg"
+
+- id: "experience_button3"
+  translation: "View all"
+
+- id: "experience_button3_url"
+  translation: "/experience"
+
+## Homepage client & work
+- id: "client_work_title"
+  translation: "Clients & Work"
+
+## Homepage newsletter
+- id: "newsletter_title"
+  translation: "Newsletter"
+
+- id: "newsletter_button"
+  translation: "Subscribe"
+
+- id: "newsletter_placeholder"
+  translation: "Your email"
+
+- id: "newsletter_success_message"
+  translation: "Thank you for subscribing to my newsletter!"
+
+- id: "newsletter_error_message"
+  translation: "An error occurred. Please try again."
+
+- id: "newsletter_note"
+  translation: "We'll never share your email with anyone else."
+
+## Homepage testimonials
+- id: "testimonials_title"
+  translation: "Testimonials"
+
+## Homepage contact
+- id: "contact_title"
+  translation: "Contact"
+
+- id: "contact_button"
+  translation: "Send message"
+
+- id: "contact_form_name"
+  translation: "Full Name"
+
+- id: "contact_form_email"
+  translation: "Email Address"
+
+- id: "contact_form_message"
+  translation: "Type Your Message Here"
+
+- id: "contact_phone_title"
+  translation: "Phone Number"
+
+- id: "contact_phone_number"
+  translation: "226-750-4806"
+
+- id: "contact_email_title"
+  translation: "Email"
+
+- id: "contact_email_email"
+  translation: '<a href="mailto:mail@example.com">simon@kremental.com</a>'
+
+- id: "contact_address_title"
+  translation: "Address"
+
+- id: "contact_address_address"
+  translation: "Waterloo, Ontario, Canada"
+
+- id: "contact_button"
+  translation: "Send Message"
+
+## Blog
+- id: "read_more"
+  translation: "Read more"
+
+- id: "published_on"
+  translation: "Published on"
+
+- id: "continue_reading"
+  translation: "Continue reading"
