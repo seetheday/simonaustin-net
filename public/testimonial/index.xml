@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Testimonials on </title>
-    <link>https://www.simonaustin.net/testimonial/</link>
+    <link>http://localhost:1313/testimonial/</link>
     <description>Recent content in Testimonials on </description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Mon, 25 Nov 2024 21:53:18 +0100</lastBuildDate>
-    <atom:link href="https://www.simonaustin.net/testimonial/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/testimonial/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mark Wright</title>
-      <link>https://www.simonaustin.net/testimonial/mark-wright/</link>
+      <link>http://localhost:1313/testimonial/mark-wright/</link>
       <pubDate>Mon, 25 Nov 2024 21:53:18 +0100</pubDate>
-      <guid>https://www.simonaustin.net/testimonial/mark-wright/</guid>
+      <guid>http://localhost:1313/testimonial/mark-wright/</guid>
       <description>&lt;p&gt;During my time at BlackBerry, Simon was pivotal to the development of Blackerry&amp;rsquo;s marketing analytics practice; his deep digital measurement expertise in combination with his exceptional lateral-thinking skills were invaluable in developing a clearer understanding of mROI and, in turn, the attitudes, actions, and opinions of BlackBerry customers and prospects. I recommend Simon without reservation.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Marco Bailetti</title>
-      <link>https://www.simonaustin.net/testimonial/marco-bailetti/</link>
+      <link>http://localhost:1313/testimonial/marco-bailetti/</link>
       <pubDate>Mon, 25 Nov 2024 21:50:45 +0100</pubDate>
-      <guid>https://www.simonaustin.net/testimonial/marco-bailetti/</guid>
+      <guid>http://localhost:1313/testimonial/marco-bailetti/</guid>
       <description>&lt;p&gt;Simon is a smart analytics strategiest AND practitioner. People like Simon have helped shaped the Analytics industry to what it is today, driven by a passion for &amp;lsquo;data-driven insights&amp;rsquo; and business optimization. Simon is a great partner to work with. He spends the time to listen, and understand different point of view, and always makes decisions based on what is best for the business, and ultimately, the customer. I would work with Simon anytime.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Chris Berry</title>
-      <link>https://www.simonaustin.net/testimonial/chris-berry/</link>
+      <link>http://localhost:1313/testimonial/chris-berry/</link>
       <pubDate>Mon, 25 Nov 2024 21:30:46 +0100</pubDate>
-      <guid>https://www.simonaustin.net/testimonial/chris-berry/</guid>
+      <guid>http://localhost:1313/testimonial/chris-berry/</guid>
       <description>&lt;p&gt;The state of Canadian digital analytics is better off because of Simon.&lt;/p&gt;&#xA;&lt;p&gt;Simon, at BlackBerry, is responsible for a non-trivial percentage of overall analytical spending in Canada. And not just for a year. But over a sustained, persistent, period of time.&lt;/p&gt;&#xA;&lt;p&gt;His influence extends from Kitchener-Waterloo all the way to Spadina and Adelaide streets in Toronto, and will often spillover into New York and Chicago.&lt;/p&gt;&#xA;&lt;p&gt;Simon works with a very heterogeneous audience within BlackBerry, ranging from executives who want the bullet points, directors looking to build solid business cases, and some of the smartest managers looking for exploitable market cleavages. He has effectively managed an orchestra of solid lines, dotted lines, sustainably, for several years. BlackBerry is better off because of his steady hand within digital analytics.&lt;/p&gt;</description>
     </item>
   </channel>

@@ -2,47 +2,47 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.simonaustin.net/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2024-11-25T21:53:18+01:00</lastmod>
   </url><url>
-    <loc>https://www.simonaustin.net/testimonial/mark-wright/</loc>
+    <loc>http://localhost:1313/testimonial/mark-wright/</loc>
     <lastmod>2024-11-25T21:53:18+01:00</lastmod>
   </url><url>
-    <loc>https://www.simonaustin.net/testimonial/</loc>
+    <loc>http://localhost:1313/testimonial/</loc>
     <lastmod>2024-11-25T21:53:18+01:00</lastmod>
   </url><url>
-    <loc>https://www.simonaustin.net/testimonial/marco-bailetti/</loc>
+    <loc>http://localhost:1313/testimonial/marco-bailetti/</loc>
     <lastmod>2024-11-25T21:50:45+01:00</lastmod>
   </url><url>
-    <loc>https://www.simonaustin.net/testimonial/chris-berry/</loc>
+    <loc>http://localhost:1313/testimonial/chris-berry/</loc>
     <lastmod>2024-11-25T21:30:46+01:00</lastmod>
   </url><url>
-    <loc>https://www.simonaustin.net/experience/</loc>
+    <loc>http://localhost:1313/experience/</loc>
     <lastmod>2019-12-01T00:00:00+01:00</lastmod>
   </url><url>
-    <loc>https://www.simonaustin.net/experience/sunlife-product/</loc>
+    <loc>http://localhost:1313/experience/sunlife-product/</loc>
     <lastmod>2019-12-01T00:00:00+01:00</lastmod>
   </url><url>
-    <loc>https://www.simonaustin.net/experience/sunlife-optimization/</loc>
+    <loc>http://localhost:1313/experience/sunlife-optimization/</loc>
     <lastmod>2017-12-01T00:00:00+01:00</lastmod>
   </url><url>
-    <loc>https://www.simonaustin.net/experience/sunlife-decision-engine/</loc>
+    <loc>http://localhost:1313/experience/sunlife-decision-engine/</loc>
     <lastmod>2015-12-01T00:00:00+01:00</lastmod>
   </url><url>
-    <loc>https://www.simonaustin.net/experience/blackberry-marketing-automation-copy/</loc>
+    <loc>http://localhost:1313/experience/blackberry-marketing-automation-copy/</loc>
     <lastmod>2014-12-01T00:00:00+01:00</lastmod>
   </url><url>
-    <loc>https://www.simonaustin.net/experience/blackberry-analytics/</loc>
+    <loc>http://localhost:1313/experience/blackberry-analytics/</loc>
     <lastmod>2007-12-01T00:00:00+01:00</lastmod>
   </url><url>
-    <loc>https://www.simonaustin.net/experience/deluxe/</loc>
+    <loc>http://localhost:1313/experience/deluxe/</loc>
     <lastmod>2005-12-01T00:00:00+01:00</lastmod>
   </url><url>
-    <loc>https://www.simonaustin.net/experience/openflows/</loc>
+    <loc>http://localhost:1313/experience/openflows/</loc>
     <lastmod>2002-12-01T00:00:00+01:00</lastmod>
   </url><url>
-    <loc>https://www.simonaustin.net/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>https://www.simonaustin.net/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
   </url>
 </urlset>
