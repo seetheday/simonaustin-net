@@ -67,3 +67,6 @@ node_modules/
 
 # dataconnect generated files
 .dataconnect
+
+# adritan sub theme
+themes/adritan-free-hugo-theme
