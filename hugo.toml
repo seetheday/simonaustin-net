@@ -63,10 +63,10 @@ theme = "adritian-free-hugo-theme"
         URL = "#experience"
         weight = 4
 
-      [[languages.en.menus.header]]
-        name = "Blog"
-        URL = "/blog"
-        weight = 5
+#      [[languages.en.menus.header]]
+#        name = "Blog"
+#        URL = "/blog"
+#        weight = 5
 
       [[languages.en.menus.header]]
         name = "Contact"
