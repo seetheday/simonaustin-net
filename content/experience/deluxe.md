@@ -8,9 +8,9 @@ location: "Midland, Ontario, Canad -> Groton, MA, USA"
 duration: "2005-2007"
 
 ---
-### Using my skills to get out of poverty
+### Using my skills to make a living wage
 
-Looking back at my time at Openflows, it’s almost unbelievable how poorly I was paid—something that might be hard to imagine for today’s graduates. I was earning poverty-level wages and more than once considered taking up manual labor in construction, even temporarily, because it paid better.
+Looking back at my time at Openflows, it’s almost unbelievable how poorly I was paid—something that might be hard to imagine for today’s graduates. More than once considered taking up manual labor in construction, even temporarily, because it paid better.
 
 By 2005, the job market for technical roles was starting to improve, and I landed a position with the Canadian office of Deluxe Corporation in Midland, Ontario, as a Database Analyst. After quickly mastering their analytics systems, I was tasked with hiring a Digital Analyst for their U.S. office in Groton, MA.
 
