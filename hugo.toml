@@ -24,8 +24,8 @@ theme = "adritian-free-hugo-theme"
   # google analytics and tag manager. to enable, set "enabled" to true
   # and add the tracking code (UA-something for analytics, GTM-something for tag manager)
   [params.analytics.googleAnalytics]
-      code = "UA-XXXXX-Y"
-      enabled = false
+      code = "G-CFCJ1B9292"
+      enabled = true
   [params.analytics.googleTagManager]
       code = "GTM-XXXXX"
       enabled = false
@@ -79,8 +79,8 @@ theme = "adritian-free-hugo-theme"
         weight = 2
 
       [[languages.en.menus.footer]]
-        name = "Portfolio"
-        URL = "#portfolio"
+        name = "Experience"
+        URL = "#experience"
         weight = 3
 
       [[languages.en.menus.footer]]
