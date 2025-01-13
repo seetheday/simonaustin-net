@@ -11,14 +11,14 @@ showcase:
 
   button:
     icon: "icon-email"
-    URL: "https://simonaustin.net/"
+    URL: "https://simonaustin.net/#contact"
 
   socialLinks:
     - icon: "linkedin"
       URL: "https://www.linkedin.com/in/simongaustin/"
 
     - icon: "square-github"
-      URL: "https://github.com/seetheday"
+      URL: "https://github.com/seetheday/"
 
 # about
 about:
@@ -28,7 +28,7 @@ about:
     URL: "https://www.linkedin.com/in/simonguaustin/"
   image:
     x: "images/about/Simon-Austin-profile-small-height.png"
-    _2x: "images/about/user-picture@2x.png"
+    _2x: "images/about/Simon-Austin-profile-small-height.png"
 
 # education
 education:
